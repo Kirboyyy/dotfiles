@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+# This setup is based on Ubuntu currently
+
+mkdir ~/personal
+mkdir ~/work
+mkdir -p ~/.config/
+cp -r .config/* ~/.config/
+cp -r .local/* ~/.local/
+cp .zshrc ~/.zshrc
+
+#sudo apt install fzf
+#apt-get install build-essential
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#snap install --beta nvim --classic
+#git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+#echo "Neovim Installed: open .config/nvim/lua/kirboyyy/packer.lua and perform :so and :PackerSync"
+
+#source ~/.zsh_profile
