@@ -1,0 +1,6 @@
+$HOME/go/bin
+$HOME/.bun/bin
+$HOME/scripts
+/opt/homebrew/opt/openjdk/bin
+/opt/homebrew/opt/postgresql@16/bin
+

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+current_dir=$(pwd)
+
+mkdir -p ~/.config
+mkdir -p ~/scripts
+
+# Remove existing symbolic links or directories
+rm -rf ~/.oh-my-zsh
+rm -rf ~/.zshrc
+rm -rf ~/.zshenv
+rm -rf ~/scripts
+rm -rf ~/.config/nvim
+
+ln -s "$current_dir/.oh-my-zsh" ~/.oh-my-zsh
+ln -s "$current_dir/.zshrc" ~/.zshrc
+ln -s "$current_dir/.zshenv" ~/.zshenv
+ln -s "$current_dir/scripts" ~/scripts
+ln -s "$current_dir/.config/nvim" ~/.config/nvim
+
+echo "Symbolic links created using current directory: $current_dir"
