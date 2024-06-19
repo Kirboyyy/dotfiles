@@ -11,11 +11,13 @@ rm -rf ~/.zshrc
 rm -rf ~/.zshenv
 rm -rf ~/scripts
 rm -rf ~/.config/nvim
+rm -rf ~/.aerospace.toml
 
 ln -s "$current_dir/.oh-my-zsh" ~/.oh-my-zsh
 ln -s "$current_dir/.zshrc" ~/.zshrc
 ln -s "$current_dir/.zshenv" ~/.zshenv
 ln -s "$current_dir/scripts" ~/scripts
 ln -s "$current_dir/.config/nvim" ~/.config/nvim
+ln -s "$current_dir/.aerospace.toml" ~/.aerospace.toml
 
 echo "Symbolic links created using current directory: $current_dir"
