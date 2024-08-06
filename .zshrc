@@ -24,3 +24,6 @@ source <(ng completion script)
 
 # KeyBindings
 bindkey -s ^f "tmux-sessionizer\n"
+
+# Alias
+alias ..='cd ..'
